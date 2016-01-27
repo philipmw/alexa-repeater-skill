@@ -1,0 +1,17 @@
+DateIntent date {date}
+DurationIntent duration {duration}
+NumberIntent number {number}
+TimeIntent time {time}
+CityIntent city {city}
+StateIntent state {state}
+FirstNameIntent name {name}
+
+GetScoreIntent score
+GetScoreIntent my score
+GetScoreIntent give me my score
+GetScoreIntent what is my score
+GetScoreIntent give me the score
+GetScoreIntent what is the score
+
+WordIntent word {word}
+WordIntent {word}

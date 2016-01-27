@@ -1,0 +1,88 @@
+{
+  "intents": [
+    {
+      "intent": "DateIntent",
+      "slots": [
+        {
+          "name": "date",
+          "type": "AMAZON.DATE"
+        }
+      ]
+    },
+    {
+      "intent": "DurationIntent",
+      "slots": [
+        {
+          "name": "duration",
+          "type": "AMAZON.DURATION"
+        }
+      ]
+    },
+    {
+      "intent": "NumberIntent",
+      "slots": [
+        {
+          "name": "number",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "TimeIntent",
+      "slots": [
+        {
+          "name": "time",
+          "type": "AMAZON.TIME"
+        }
+      ]
+    },
+    {
+      "intent": "CityIntent",
+      "slots": [
+        {
+          "name": "city",
+          "type": "AMAZON.US_CITY"
+        }
+      ]
+    },
+    {
+      "intent": "StateIntent",
+      "slots": [
+        {
+          "name": "state",
+          "type": "AMAZON.US_STATE"
+        }
+      ]
+    },
+    {
+      "intent": "FirstNameIntent",
+      "slots": [
+        {
+          "name": "name",
+          "type": "AMAZON.US_FIRST_NAME"
+        }
+      ]
+    },
+    {
+      "intent": "WordIntent",
+      "slots": [
+        {
+          "name": "word",
+          "type": "LIST_OF_ENGLISH_WORDS"
+        }
+      ]
+    },
+    {
+      "intent": "GetScoreIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}
